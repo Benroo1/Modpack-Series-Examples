@@ -34,11 +34,8 @@ recipes.removeByRecipeName("minecraft:light_gray_dye_from_white_tulip");
     You can remove all recipes that's registered to a specific modid with the removeByMod method
     This is sadly missing from the CrT wiki but it was added in this commit
     https://github.com/CraftTweaker/CraftTweaker/commit/815714fa1f9c6db87585add3702eec4a6ff83227
- */
-recipes.removeByMod("thermalfoundation");
-
-/* 
-    JEI has a hide ingredients mode and I recommend you use it since it's easier to see what's hidden ingame.
+ 
+JEI has a hide ingredients mode and I recommend you use it since it's easier to see what's hidden ingame.
     But if you do want to do it in CrT it's done like this
  */
 JEI.hide(<minecraft:cooked_beef>);
